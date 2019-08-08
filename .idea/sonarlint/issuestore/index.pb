@@ -1,0 +1,23 @@
+
+T
+$src/constantes/ConstantesString.java,0\9\09eac606b55463169b992f46ba2cf85ccea0f92d
+T
+$src/acciones/VariablesTextuales.java,a\d\ad64963a57cbcca91ea3fcf09087a30b734333ca
+S
+#src/acciones/VariablesNumerica.java,6\f\6f60a2b92444c3e275b522d163e3f89577d7af1e
+B
+src/main/Main.java,f\e\fe03b4fd3afe162c6e01309b98a22588e093d274
+O
+src/acciones/EntornoLogico.java,f\a\fa9ab7457dfbea969a5607ec15a0e1257db11ca3
+U
+%src/constantes/ConstantesEnteros.java,9\1\91bf465661f9e2784217af011ba3762e352c8507
+T
+$src/constantes/ConstantesDouble.java,6\8\6888c7f0cb0cafa33ed1e9d47984e9ecd8fe17ea
+B
+src/peso/Peso.java,3\3\33f4d3645fc14fd2824313fcee247fa639c4ca26
+F
+src/zodiaco/Signo.java,9\8\987ee35b5fb536146935f4ac9d5495e81c70389e
+H
+src/salario/Salario.java,8\d\8dd886215f3b97dcd8759b4529c7228d6309ad65
+H
+src/vectores/Vector.java,2\6\268eb32e6450a74894267a7529677c9a01b77358
