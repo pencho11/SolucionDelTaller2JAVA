@@ -1,7 +1,6 @@
 package acciones ;
 
 import static constantes.ConstantesEnteros.CERO;
-import static constantes.ConstantesEnteros.CUARENTA;
 
 public class VariablesNumerica
 {
@@ -32,6 +31,9 @@ public class VariablesNumerica
     private int result;
 
     private int promedioPos;
+
+
+    private static int[]x;
 
     public int getPromedioNeg() {
         return promedioNeg;

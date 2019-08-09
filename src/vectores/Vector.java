@@ -10,21 +10,22 @@ import static constantes.ConstantesString.*;
 
 public class Vector extends VariablesTextuales
 {
+
     public int calcularVector()
     {
+         int[]x = new int[ this.getN()];
 
-        int numero[] = new int[ this.getN()];
         for (int i = CERO.getNum(); i<this.getN(); i++)
         {
-            numero[i] = Integer.parseInt(JOptionPane.showInputDialog(null, VALOR_NUMEROS.getMensaje()  +
+            x[i] = Integer.parseInt(JOptionPane.showInputDialog(null, VALOR_NUMEROS.getMensaje()  +
                     (i+UNO.getNum())) );
-            if (numero[i] > CERO.getNum() ) {
-                this.setPos(this.getPos() + numero[i]);
+            if (x[i] > CERO.getNum() ) {
+                this.setPos(this.getPos() + x[i]);
                 this.setPromedioPos (this.getPromedioPos() + UNO.getNum() );
             }
             else
             {
-                this.setNeg(this.getNeg() + numero[i]);
+                this.setNeg(this.getNeg() + x[i]);
                 this.setPromedioNeg(this.getPromedioNeg() + UNO.getNum());
             }
         }
