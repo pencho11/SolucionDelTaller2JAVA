@@ -10,7 +10,7 @@ import java.text.DecimalFormat ;
 import java.text.DecimalFormatSymbols ;
 
 
-import static constantes.ConstantesEnteros.CERO;
+import static constantes.ConstantesEnteros.*;
 import static constantes.ConstantesString.*;
 
 public class Main
@@ -63,11 +63,23 @@ public class Main
                     String mes = JOptionPane.showInputDialog(null, MES_NACIMIENTO.getMensaje());
                     signo.setMes(Byte.parseByte(mes));
 
-                    String anio = JOptionPane.showInputDialog(null, ANIO_NACIMIENTO.getMensaje());
-                    signo.setAnio(Integer.parseInt(anio));
+                    if(signo.getMes() >= TRES.getNum() && signo.getMes() <= SEIS.getNum()){
 
-                    JOptionPane.showMessageDialog(null,BIENBENIDO.getMensaje() + signo.getNombre() +
-                            ESPACIO.getMensaje()+signo.mostrarSigno());
+                        JOptionPane.showMessageDialog(null,BIENBENIDO.getMensaje() + signo.getNombre() +
+                                ESPACIO.getMensaje()+signo.mostrarSigno());
+                    }
+                    else if(signo.getMes() >= SEIS.getNum() && signo.getMes() <= NUEVE.getNum() ){
+                        JOptionPane.showMessageDialog(null,BIENBENIDO.getMensaje() + signo.getNombre() +
+                                ESPACIO.getMensaje()+signo.mostrarSigno2());
+                    }
+                    else if(signo.getMes() >= NUEVE.getNum() && signo.getMes() <=DOCE.getNum() ){
+                        JOptionPane.showMessageDialog(null,BIENBENIDO.getMensaje() + signo.getNombre() +
+                                ESPACIO.getMensaje()+signo.mostrarSigno3());
+                    }
+                    else if(signo.getMes() >= DOCE.getNum() && signo.getMes() <=TRES.getNum() ){
+                        JOptionPane.showMessageDialog(null,BIENBENIDO.getMensaje() + signo.getNombre() +
+                                ESPACIO.getMensaje()+signo.mostrarSigno4());
+                    }
                     break;
 
                 case 3:
